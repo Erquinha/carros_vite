@@ -1,0 +1,27 @@
+/* FormLer.css */
+
+
+/* Estilo Geral */
+.form-ler-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #8b0000; /* Vermelho escuro */
+    border-radius: 10px;
+    background-color: #050303; /* Fundo levemente rosado */
+  }
+   .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+   .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #130909;
+    text-align: left;
+  }
+   .table th {
+    background-color: #8b0000; /* Vermelho escuro */
+    color: rgb(0, 0, 0);
+  }
+ 

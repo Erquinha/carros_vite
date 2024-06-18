@@ -1,0 +1,21 @@
+/* Define que o html e o body ocupam 100% da altura da janela e remove margens e preenchimentos */
+html, body {
+    height: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estiliza o contêiner da imagem */
+  .topo {
+    position: fixed; /* Garante que o contêiner fique fixo na posição especificada */
+    top: 0;         /* Alinha o contêiner ao topo da página */
+    left: 0;        /* Alinha o contêiner à esquerda da página */
+    margin: 1%;   /* Adiciona uma margem de 10px ao redor do contêiner */
+  }
+  
+  /* Estiliza a imagem dentro do contêiner */
+  .topo img {
+    width: 10px;  /* Define a largura da imagem para 20px */
+    height: auto; /* Mantém a proporção original da imagem */
+  }
+  

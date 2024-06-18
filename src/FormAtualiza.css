@@ -1,0 +1,44 @@
+/* FormAtualiza.css */
+
+
+/* Estilo Geral */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #8b0000; /* Vermelho escuro */
+    border-radius: 10px;
+    background-color: #110d0d; /* Fundo levemente rosado */
+  }
+   .input-group {
+    margin-bottom: 10px;
+  }
+   .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+   .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+   .button {
+    background-color: #8b0000; /* Vermelho escuro */
+    color: rgb(29, 21, 21);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+   .button:hover {
+    background-color: #a52a2a; /* Vermelho um pouco mais claro */
+  }
+   .button:focus {
+    outline: none;
+  }
+ 

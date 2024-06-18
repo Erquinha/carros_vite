@@ -1,0 +1,49 @@
+/* Carrossel.css */
+
+/* Estilo Geral */
+.carrossel-container {
+    position: relative;
+    width: 100%;
+    height: 150vh; /* Alterado para ocupar metade da altura da viewport */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carrossel {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .botoes {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .passar_button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(3, 1, 1);
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .passar_button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .passar_button:focus {
+    outline: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .carrossel-container {
+      height: 100vh; /* Manter a altura da viewport para dispositivos maiores */
+    }
+  }
+  
